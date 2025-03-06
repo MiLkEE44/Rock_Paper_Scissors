@@ -28,19 +28,21 @@ scissors = '''
 '''
 
 # Player side RPS choice
-print("Welcome to Rock, Paper, Scissors! Can you beat the computer? ")
-player = int(input("Type 0 for rock, 1 for paper, and 2 for scissors. \n"))
+print("Welcome to Rock, Paper, Scissors!
+       Can you beat the computer? ")
+player = int(input("Type 0 for rock, 1 for paper, 
+                    and 2 for scissors. \n"))
 
 # Check if the input is valid
 if player >= 3 or player < 0:
-    print(f"{player} is and invalid number, so you lose!")
+    print(f"{player} is a invalid number, so you lose!")
 else:
     game_images = [rock, paper, scissors]
 
     if player == 0:
         print(f"{rock}")
     elif player == 1:
-        print(f"{paper}")
+        print(f"{paper}")  
     else:
         print(f"{scissors}")
 
