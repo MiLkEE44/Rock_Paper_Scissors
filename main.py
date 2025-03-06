@@ -33,7 +33,7 @@ player = int(input("Type 0 for rock, 1 for paper, and 2 for scissors. \n"))
 
 # Check if the input is valid
 if player >= 3 or player < 0:
-    print(f"You typed an invalid number: {player}. So the outcome doesn't matter, you lose!")
+    print(f"{player} is and invalid number, so you lose!")
 else:
     game_images = [rock, paper, scissors]
 
