@@ -1,5 +1,6 @@
 import random
 
+# Game images 
 rock = ''' 
     _______
 ---'   ____)
@@ -33,7 +34,7 @@ print("Welcome to Rock, Paper, Scissors!
 player = int(input("Type 0 for rock, 1 for paper, 
                     and 2 for scissors. \n"))
 
-# Check if the input is valid
+# Check if the input is valid. Nonvalid input doesn't print game images. 
 if player >= 3 or player < 0:
     print(f"{player} is a invalid number, so you lose!")
 else:
